@@ -1,0 +1,160 @@
+body {
+    background: #f9fbfc;
+	overflow-x:hidden;
+}
+.header__1 .header__logo img {
+    height: 2.2rem;
+}
+.footer__1 {
+	margin-top:100px;
+}
+select {
+    cursor: pointer;
+    display: inline-block;
+    padding: 15px!important;
+    color: #6c757d!important;
+}
+input[type=text], input[type=password], input[type=email], input[type=tel], input[type=number], select, textarea, .custom-select {
+    background: 0 0;
+    color: #232226;
+    background-color: #f2f7fa!important;
+    border: 1px solid transparent!important;
+    width: 100%;
+    padding: 9px 20px;
+    line-height: 1.5;
+    font-weight: 400;
+    font-size: 14px;
+    border-radius: 12px;
+    position: relative;
+    -webkit-appearance: none;
+    -webkit-transition: all cubic-bezier(.4,0,.2,1) .4s;
+    transition: all cubic-bezier(.4,0,.2,1) .4s;
+    outline: 0;
+}
+input[type=text]:hover, input[type=password]:hover, input[type=email]:hover, input[type=tel]:hover, input[type=number]:hover, select:hover, textarea:hover, .custom-select:hover {
+    background-color: #fff;
+    -webkit-box-shadow: 0 17px 13px 0 #192c4b05;
+    box-shadow: 0 17px 13px 0 #192c4b05;
+    border: solid 1px #e2eef1;
+}
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, input[type=tel]:focus, input[type=number]:focus, select:focus, textarea:focus, .custom-select:focus {
+    background-color: #fff!important;
+    border: 1px solid #e2eef1!important;
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+}
+.search input {
+    width: 300px;
+    height: 100%;
+    background: 0 0!important;
+    border: 1px solid transparent!important;
+    padding-left: calc(2rem + 20px);
+}
+.result .ri-search-line {
+  position: relative;
+}
+.card__item .card_head {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    background-color: #ecf1f9;
+    height: 22rem;
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+}
+
+.custom-select {
+    background-image: url(../images/select-arrow.png);
+    background-position: calc(100% - 0.5rem),100% 0;
+    background-size: 1.5em 1.5em;
+    background-repeat: no-repeat;
+    -webkit-transition: none!important;
+    transition: none!important;
+}
+.text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+.w-7\/12 {
+    width: 58.333333%;
+}
+.w-2\/12 {
+    width: 16.666667%;
+}
+.font-mono {
+    font-family: IBM Plex Mono,monospace;
+}
+.text-mr-rarity {
+    font-size: .8rem;
+}
+.font-normal {
+    font-weight: 400;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.items-center {
+    align-items: center;
+}
+.flex-row {
+    flex-direction: row;
+}
+.flex {
+    display: flex;
+}
+.flex-1 {
+    flex: 1 1 0%;
+}
+.flex-col {
+    flex-direction: column;
+}
+.bg-gradient-to-b {
+    background-image: linear-gradient(to bottom,var(--tw-gradient-stops));
+}
+.bg-mr-heading-purple {
+    background-color: #291560!important;
+}
+.text-mr-signature-yellow {
+    --tw-text-opacity: 1;
+    color: rgba(247,220,90,var(--tw-text-opacity));
+}
+.text-mr-lumen-purple {
+    --tw-text-opacity: 1;
+    color: rgba(193,183,243,var(--tw-text-opacity));
+}
+.pr-1 {
+    padding-right: 0.25rem;
+}
+.text-mr-standout-purple {
+    color: #050ba2!important;
+}
+.font-semibold {
+    font-weight: 600;
+}
+.text-mr-standout-purple {
+    color: #050ba2!important;
+}
+.border-mr-rarity {
+    --tw-border-opacity: 1;
+    border-color: rgba(5,11,162,var(--tw-border-opacity));
+}
+.border-t {
+    border-top-width: 1px;
+}
+*, :after, :before {
+    box-sizing: border-box;
+    border: 0 solid;
+}
+.shadow {
+    --tw-shadow: 0 1px 3px 0 rgba(0,0,0,0.1),0 1px 2px 0 rgba(0,0,0,0.06);
+}
+
+
+
+
+
+
+
+
