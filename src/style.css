@@ -1902,6 +1902,7 @@ textarea,
   font-size: 1.1rem;
   position: relative;
   margin-bottom: 1.3rem;
+  color: white;
 }
 
 .footer__1 .footer__list {
@@ -2111,7 +2112,7 @@ div.button:focus {
   color: #fff;
 }
 .epic {
-  background: #a335ee;
+  background: #7700c7;
   color: #fff;
 }
 .rare {
@@ -2131,7 +2132,7 @@ div.button:focus {
   border: 3px #ff8000 solid;
 }
 .epic-border {
-  border: 3px #a335ee solid;
+  border: 3px #7700c7 solid;
 }
 .rare-border {
   border: 3px #0070dd solid;
